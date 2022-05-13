@@ -1,0 +1,23 @@
+.wrap {
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  background: #66b4e7;
+  color: #f9f9fd;
+  margin: 0 0 10px;
+}
+
+.title{
+  margin-bottom: 5px;
+}
+
+.body{
+  margin-bottom: 5px;
+}
+
+.footer{
+  color: silver;
+  font-size: 12px;
+}
+
