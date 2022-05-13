@@ -1,0 +1,127 @@
+.wrap{
+  display: flex;
+}
+
+/**************************************/
+
+.users{
+  background: cornflowerblue;
+  color: snow;
+  width: 45%;
+  box-sizing: border-box;
+}
+
+.users-title{
+  font-size: 24px;
+  background: royalblue;
+  padding: 20px;
+  height: 25px;
+}
+
+.users-app{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 3px;
+  height: calc(100vh - 75px);
+  overflow-y: auto;
+}
+
+.users-app::-webkit-scrollbar {
+  width: 10px;
+}
+
+.users-app::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: royalblue;
+  -webkit-box-shadow: inset 0 0 6px rgba(218, 235, 239, 0.2);
+}
+
+.users-app::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px royalblue;
+  border-radius: 10px;
+  background-color: white;
+}
+
+/**************************************/
+
+.posts-comments{
+  display: flex;
+  flex-direction: column;
+}
+
+.posts{
+  display: flex;
+  flex-direction: column;
+}
+
+.posts-title{
+  font-size: 24px;
+  color: royalblue;
+  padding: 20px;
+}
+
+.posts-app{
+  padding: 20px;
+  height: 50vh;
+  overflow-y: auto;
+  margin-right: 5px;
+}
+
+.posts-app::-webkit-scrollbar {
+  width: 10px;
+  background-color: #f9f9fd;
+}
+
+.posts-app::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: cornflowerblue;
+}
+
+.posts-app::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  background-color: #f9f9fd;
+}
+
+
+/**************************************/
+
+.comments{
+  display: flex;
+  flex-direction: column;
+}
+
+.comments-title{
+  font-size: 24px;
+  color: royalblue;
+  padding: 20px;
+}
+
+.comments-app{
+  padding: 20px;
+  height: 30vh;
+  overflow-y: auto;
+  margin-right: 5px;
+}
+
+.comments-app::-webkit-scrollbar {
+  width: 10px;
+  background-color: #f9f9fd;
+}
+
+.comments-app::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: cornflowerblue;
+}
+
+.comments-app::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  background-color: #f9f9fd;
+}
+
+
+
+
