@@ -1,0 +1,28 @@
+.wrap{
+  color: #cae0f3;
+  padding: 20px 100px;
+  background: #226fcc;
+  box-sizing: border-box;
+  height: 70px;
+}
+
+.wrap b{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 50px;
+}
+
+a{
+  color: #cae0f3;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.rla{
+  color: white;
+}

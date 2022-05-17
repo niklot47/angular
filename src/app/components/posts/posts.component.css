@@ -1,0 +1,50 @@
+.wrap{
+  display: flex;
+}
+
+.app-post{
+  width: 25%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  height: calc(95vh - 70px);
+  overflow-y: auto;
+}
+
+.outletPostDetails::-webkit-scrollbar-button,
+.app-post::-webkit-scrollbar-button {
+  background-repeat:no-repeat;
+  width:6px;
+  height:0px
+}
+
+.outletPostDetails::-webkit-scrollbar-track,
+.app-post::-webkit-scrollbar-track {
+  background-color: #ffffff;
+}
+
+.outletPostDetails::-webkit-scrollbar-thumb,
+.app-post::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background-color:#226fcc;
+  background-position:center;
+  background-repeat:no-repeat;
+}
+
+.outletPostDetails::-webkit-scrollbar,
+.app-post::-webkit-scrollbar{
+  width: 11px;
+
+}
+
+.outletPostDetails{
+  padding: 20px;
+  background: #cae0f3;
+  color: #226fcc;
+  width: 75%;
+  height: calc(95vh - 70px);
+  overflow-y: auto;
+}
+

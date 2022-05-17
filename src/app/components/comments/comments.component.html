@@ -1,0 +1,8 @@
+<div class="wrap">
+  <div class="app-post">
+    <app-comment *ngFor="let comment of comments" [comment]="comment"></app-comment>
+  </div>
+  <div class="outletPostDetails">
+    <router-outlet></router-outlet>
+  </div>
+</div>

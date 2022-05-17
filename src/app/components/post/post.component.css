@@ -1,0 +1,22 @@
+.post-link{
+  border-radius: 3px;
+  padding: 5px;
+  /*width: 100px;*/
+}
+
+a{
+  text-decoration: none;
+  color: #226fcc;
+  overflow-x: hidden;
+}
+
+a:active{
+  color: #226fcc;
+  text-decoration: none;
+}
+
+.rla{
+  border: 2px solid #79a2d3;
+  background: #dde6ef;
+
+}

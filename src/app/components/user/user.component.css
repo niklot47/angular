@@ -1,0 +1,18 @@
+
+a{
+  padding: 5px;
+  text-decoration: none;
+  color: #226fcc;
+  border-radius: 3px;
+}
+
+a:active{
+  color: #226fcc;
+  text-decoration: none;
+}
+
+.rla{
+  border: 2px solid #79a2d3;
+  background: #dde6ef;
+
+}
