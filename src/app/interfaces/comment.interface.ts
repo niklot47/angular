@@ -1,3 +1,7 @@
-export interface IComment {
-
+export interface IComment{
+  postId:number;
+  id:number
+  name:string;
+  email:string;
+  body:string;
 }
