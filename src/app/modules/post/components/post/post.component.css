@@ -1,0 +1,23 @@
+.wrap{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  /*border: 2px solid #333333;*/
+}
+
+.title{
+  padding: 5px;
+  width: 20vw;
+  height: 20px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.wrap button{
+  border-radius: 2px;
+  border: none;
+  color: white;
+  background: red;
+  width: 5vw;
+}

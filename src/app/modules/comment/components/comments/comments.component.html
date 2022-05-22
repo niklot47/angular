@@ -1,0 +1,11 @@
+<div class="wrap">
+
+  <div class="list">
+    <app-comment *ngFor="let comment of comments" [comment] = "comment"></app-comment>
+  </div>
+
+  <div class="outlet">
+    <router-outlet></router-outlet>
+  </div>
+
+</div>

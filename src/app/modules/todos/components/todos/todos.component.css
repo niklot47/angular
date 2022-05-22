@@ -1,0 +1,20 @@
+.wrap{
+  display: flex;
+}
+
+.list{
+  box-sizing: border-box;
+  padding: 20px;
+  width: 30%;
+  background: #505050;
+  height: calc(100vh - 75px);
+  overflow-y: auto;
+}
+
+.outlet{
+  box-sizing: border-box;
+  padding: 20px;
+  width: 70%;
+  height: calc(100vh - 75px);
+  overflow-y: auto;
+}

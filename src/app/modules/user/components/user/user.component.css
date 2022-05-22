@@ -1,0 +1,14 @@
+.wrap{
+  width: 350px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.wrap button{
+  border-radius: 2px;
+  border: none;
+  color: white;
+  background: red;
+}

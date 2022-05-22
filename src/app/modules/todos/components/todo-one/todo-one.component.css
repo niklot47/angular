@@ -1,0 +1,9 @@
+.wrap{
+  display: flex;
+  align-items: center;
+  margin-bottom: 3px;
+}
+
+#true{
+  text-decoration: line-through;
+}

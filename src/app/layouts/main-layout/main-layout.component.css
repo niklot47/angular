@@ -1,0 +1,11 @@
+.wrap{
+  color: white;
+  font-size: 22px;
+  box-sizing: border-box;
+
+  background: #4b4b4b;
+
+  /*padding: 20px;*/
+  height: calc(100vh - 75px);
+  overflow-y: auto;
+}

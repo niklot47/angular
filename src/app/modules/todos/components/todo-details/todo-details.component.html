@@ -1,0 +1,2 @@
+<div class="name" *ngIf="user">{{user.name}}:</div>
+<app-todo-one *ngFor="let todo of todos" [todo]="todo"></app-todo-one>

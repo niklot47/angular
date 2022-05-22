@@ -1,0 +1,30 @@
+.wrap{
+  box-sizing: border-box;
+  padding: 20px 100px;
+  height: 75px;
+  background: #333333;
+  display: flex;
+  justify-content: center;
+}
+
+.links{
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+a{
+  color: white;
+  font-size: 26px ;
+  text-decoration: none;
+}
+
+a:hover{
+  color: silver;
+}
+
+.active{
+  color: red;
+  text-decoration: underline;
+}
