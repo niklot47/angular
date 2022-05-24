@@ -9,6 +9,7 @@ import { TodosComponent } from './components/todos/todos.component';
 import { TodoDetailsComponent } from './components/todo-details/todo-details.component';
 import {UserService} from "../user/services";
 import { TodoOneComponent } from './components/todo-one/todo-one.component';
+import {TodosGuard} from "./services/todos.guard";
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { TodoOneComponent } from './components/todo-one/todo-one.component';
   ],
   providers: [
     TodosService,
-    UserService
+    UserService,
+    TodosGuard
   ]
 })
 export class TodosModule { }
