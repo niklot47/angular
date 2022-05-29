@@ -1,0 +1,15 @@
+<div class="wrap">
+  <form [formGroup]="form" (ngSubmit)="login()">
+    <label>
+      <div>Login:</div>
+      <input type="text" formControlName="username">
+    </label>
+    <label>
+      <div>Password:</div>
+      <input type="text" formControlName="password">
+    </label>
+    <div>
+      <button [disabled]="form.invalid">Login</button>
+    </div>
+  </form>
+</div>

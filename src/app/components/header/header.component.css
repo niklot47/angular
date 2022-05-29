@@ -1,0 +1,29 @@
+.wrap{
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+
+  box-sizing: border-box;
+  height: 70px;
+  padding: 0 100px;
+
+  align-items: center;
+
+
+  background: indigo;
+  color: white;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  color: silver;
+}
+
+.activated{
+  color: violet;
+  text-decoration: underline;
+}

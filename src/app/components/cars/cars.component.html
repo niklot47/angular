@@ -1,0 +1,25 @@
+<div class="wrap">
+
+  <div class="addCar">
+<!--    <form>-->
+<!--      <div><label>model : <input type="text" formControlName="model"></label></div>-->
+<!--      <div><label>year : <input type="text" formControlName="year"></label></div>-->
+<!--      <div><label>price : <input type="text" formControlName="price"></label></div>-->
+<!--      <button (click)="save()">Save</button>-->
+<!--    </form>-->
+  </div>
+
+  <hr>
+
+  <div class="cars">
+    <div *ngFor="let car of cars">
+      <div>
+        [{{car.id}}] <b>{{car.model}}</b> ({{car.year}}) - {{car.price}}
+      </div>
+      <div>
+        <button (click)="update()">Update</button>
+        <button (click)="delete()">Delete</button>
+      </div>
+    </div>
+  </div>
+</div>

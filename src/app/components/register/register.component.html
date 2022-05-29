@@ -1,0 +1,28 @@
+<div class="wrap">
+  <div>
+    <b>Register a new user</b>
+  </div>
+  <form [formGroup]="form" (ngSubmit)="register()">
+    <label>
+      <div>Login:</div>
+      <input type="text" formControlName="username">
+      <div *ngIf="usernameError" class="error">
+        User already exist!
+      </div>
+    </label>
+    <label>
+      <div>Password:</div>
+      <input type="text" formControlName="password">
+    </label>
+    <label>
+      <div>Confirm password:</div>
+      <input type="text" formControlName="confirm">
+      <div *ngIf="form.errors" class="error">
+        Passwords do not match!
+      </div>
+    </label>
+    <div>
+      <button [disabled]="form.invalid">Register</button>
+    </div>
+  </form>
+</div>

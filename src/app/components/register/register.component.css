@@ -1,0 +1,41 @@
+.wrap{
+  box-sizing: border-box;
+  width: 100vw;
+  height: calc(100vh - 70px);
+  overflow-y: auto;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+
+  padding: 20px 100px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+button{
+  border: none;
+  border-radius: 3px;
+  padding: 3px 10px;
+  background: indigo;
+  color: white;
+}
+
+button:hover{
+  background: violet;
+}
+
+button:disabled{
+  background: silver;
+  color: indigo;
+}
+
+.error{
+  padding: 3px 0;
+  color: violet;
+}
+
