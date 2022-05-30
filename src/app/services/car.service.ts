@@ -17,19 +17,18 @@ export class CarService {
   }
 
   getAll():Observable<ICar[]>{
-    // return this.httpClient.get<ICar[]>(urls.cars);
-    return this.httpClient.get<ICar[]>("http://owu.linkpc.net/api/v3/cars");
+    return this.httpClient.get<ICar[]>(urls.cars);
   }
 
   getById(id:string):Observable<ICar>{
     return this.httpClient.get<ICar>(`${urls.cars}/${id}`)
   }
 
-  deleteById(id:string):Observable<void>{
+  deleteById(id:number):Observable<void>{
     return this.httpClient.delete<void>(`${urls.cars}/${id}`)
   }
 
-  updateById(id:string, car: Partial<ICar>):Observable<ICar>{
+  updateById(id:number, car: Partial<ICar>):Observable<ICar>{
     return this.httpClient.patch<ICar>(`${urls.cars}/${id}`, car)
   }
 

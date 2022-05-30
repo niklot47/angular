@@ -11,10 +11,18 @@
   padding: 20px 100px;
 }
 
-form{
+.info{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+.formMain{
   display: flex;
   flex-direction: row;
   column-gap: 5px;
+  justify-content: center;
 }
 
 button{
@@ -37,4 +45,27 @@ button:disabled{
 .error{
   padding: 3px 0;
   color: violet;
+}
+
+.cars{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.car{
+  border-radius: 3px;
+  border: 2px solid indigo;
+  box-sizing: border-box;
+  padding: 7px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bp{
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
 }

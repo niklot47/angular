@@ -3,7 +3,7 @@ import {
   HttpRequest,
   HttpHandler,
   HttpEvent,
-  HttpInterceptor, HttpErrorResponse
+  HttpInterceptor, HttpErrorResponse, HttpHeaders
 } from '@angular/common/http';
 import {catchError, Observable, throwError} from 'rxjs';
 import {AuthService} from "./services";
@@ -33,5 +33,4 @@ export class MainInterceptor implements HttpInterceptor {
   addToken(request:HttpRequest<any>, token:string):HttpRequest<any>{
     return request.clone({setHeaders: {Authorization: `Bearer ${token}`}})
   }
-
 }
